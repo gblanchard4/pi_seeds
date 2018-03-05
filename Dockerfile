@@ -1,4 +1,4 @@
-FROM resin/%%RESIN_MACHINE_NAME%%-node::
+FROM resin/raspberrypi-node::latest
 
 # use apt-get if you need to install dependencies,
 # for instance if you need ALSA sound utils, just uncomment the lines below.
