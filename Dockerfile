@@ -1,5 +1,5 @@
-FROM resin/raspberrypi-node::latest
-
+FROM resin/raspberrypi-node
+ 
 # use apt-get if you need to install dependencies,
 # for instance if you need ALSA sound utils, just uncomment the lines below.
 #RUN apt-get update && apt-get install -yq \
