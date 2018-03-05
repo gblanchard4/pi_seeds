@@ -1,5 +1,6 @@
 var sensor = require('ds18x20');
 var moment = require('moment');
+var express = require('express');
 var FirebaseClient = require('firebase-client');
 var intervalTime = process.env.INTERVAL_TIME || 600;
 var firebaseURL = process.env.FIREBASE_URL;
