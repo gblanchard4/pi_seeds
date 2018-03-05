@@ -1,0 +1,33 @@
+{
+  "name": "pi_seeds",
+  "version": "1.0.0",
+  "description": "Tracking stats on my seed started using a raspberry pi and node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "modprobe w1-gpio && modprobe w1-therm && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gblanchard4/pi_seeds"
+  },
+  "keywords": [
+    "resin.io",
+    "webserver",
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Gene Blanchard <me@geneblanchard.com>",
+  "license": "Beer-ware",
+  "bugs": {
+    "url": "https://github.com/gblanchard4/pi_seeds/issues"
+  },
+  "homepage": "https://github.com/gblanchard4/pi_seeds#readme",
+  "dependencies": {
+    "express": "*",
+    "ejs": "*",
+    "ds18x20": "*",
+    "firebase-client": "*",
+    "moment": "*"
+  }
+}
